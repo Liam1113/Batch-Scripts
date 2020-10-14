@@ -68,7 +68,7 @@ echo:
 echo ---- // AUTOMATIONS \\ ----
 echo:
 echo EMAIL                          Opens person email.
-echo MORNING                  Starts morning process, opens google classroom, youtube, and my email.
+echo MORNING                        Starts morning process, opens google classroom, youtube, and my email.
 echo OPENAPPS                       Opens applications folder.
 echo OPENSTARTUP                    Opens startup folder.
 echo USEHEADSET                     Changes the default playback device to the headset.
