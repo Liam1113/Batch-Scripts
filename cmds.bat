@@ -33,6 +33,7 @@ echo SORT                           Insensitive case filtering.
 echo SYNC                           Sync local repo to system32 (Security: Admin).
 echo TREE                           Graphically displays the directory structure of apath.
 echo TYPE                           Displays the contents of a text file.
+echo FLS                            Opens Discord RPC for Flashing Lights.
 
 echo:
 echo ---- // FILES \\ ----
@@ -63,6 +64,8 @@ echo CODE -H                        Prints commands.
 echo CODE -NAME                     Opens new session.
 echo CODE .                         Open VSC.
 echo CODE [FILE]                    Opens new file.
+echo RBXLNEW                        Creates a new Roblox studio place, opens Rojo and Visual Studio Code.
+echo RBXLOPEN [NAME]                Opens a Roblox studio place, Rojo, and Visual Studio Code.      
 
 echo:
 echo ---- // AUTOMATIONS \\ ----
@@ -71,5 +74,4 @@ echo EMAIL                          Opens person email.
 echo MORNING                        Starts morning process, opens google classroom, youtube, and my email.
 echo OPENAPPS                       Opens applications folder.
 echo OPENSTARTUP                    Opens startup folder.
-echo USEHEADSET                     Changes the default playback device to the headset.
-echo USESPEAKERS                    Changes the default playback device to the speakers.
+echo STARTDIS                       Opens Discord.
