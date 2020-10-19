@@ -52,6 +52,7 @@ echo START [FILE]                   Opens/runs folder/file.
 echo:
 echo ---- // GOOGLE \\ ----
 echo:
+echo RESTARTCHROME                  Restarts google chrome.
 echo EXITCHROME                     Closes chromne.
 echo START CHROME [URL]             Search chrome.
 echo START CHROME --INCOGNITO       Starts chrome in incognito mode.
@@ -71,7 +72,8 @@ echo:
 echo ---- // AUTOMATIONS \\ ----
 echo:
 echo EMAIL                          Opens person email.
-echo MORNING                        Starts morning process, opens google classroom, youtube, and my email.
+echo MORNING                        Starts morning process, opens google classroom, youtube, connects to the wifi, and opens my email.
 echo OPENAPPS                       Opens applications folder.
 echo OPENSTARTUP                    Opens startup folder.
 echo STARTDIS                       Opens Discord.
+echo WIFI                           Connects to the wifi.
