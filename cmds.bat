@@ -35,6 +35,7 @@ echo SYNCREPO                       Syncs my VSC Batch folder to my git Batch fo
 echo TREE                           Graphically displays the directory structure of apath.
 echo TYPE                           Displays the contents of a text file.
 echo FLS                            Opens Discord RPC for Flashing Lights.
+echo GITHUB                         Opens my personal GitHub account.
 
 echo:
 echo ---- // FILES \\ ----
