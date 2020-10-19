@@ -31,6 +31,7 @@ echo:
 echo HIS                            View command history.
 echo SORT                           Insensitive case filtering.
 echo SYNC                           Sync local repo to system32 (Security: Admin).
+echo SYNCREPO                       Syncs my VSC Batch folder to my git Batch folder, use this before sync.
 echo TREE                           Graphically displays the directory structure of apath.
 echo TYPE                           Displays the contents of a text file.
 echo FLS                            Opens Discord RPC for Flashing Lights.
