@@ -1,6 +1,6 @@
 @echo off
 
-cd C:\Users\Andre\Documents\GitHub
+cd C:\Users\Liam\Documents\GitHub
 dir
 set /p NewProjectName=Enter the project name: 
 

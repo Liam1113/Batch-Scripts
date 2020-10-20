@@ -2,9 +2,9 @@
 
 set /p NewProjectName=Enter the project name: 
 powershell write-host -fore Green Creating project
-cd C:\Users\Andre\Documents\GitHub
+cd C:\Users\Liam\Documents\GitHub
 mkdir %NewProjectName%
-xcopy C:\Users\Andre\Documents\ROBLOX\NewProject %NewProjectName% /E
+xcopy C:\Users\Liam\Documents\ROBLOX\NewProject %NewProjectName% /E
 
 powershell write-host -fore Green Opening project in Visual Studio Code
 call code %NewProjectName%
