@@ -1,4 +1,4 @@
 @echo off
 
 echo Connecting to Wifi
-powershell -command "netsh wlan connect ssid=Erinjerry name=Erinjerry"
+powershell -command "netsh wlan connect ssid=Fios-nXt4K name=Fios-nXt4K"
