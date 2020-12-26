@@ -54,3 +54,13 @@ echo logs                       Retrurns the logs.
 echo apps                       Returns all Heroku apps on your account.
 echo create                     Creates an app or buildpack.
 echo releases                   Display the releases for an app.
+echo git:remote -a              Add a Git remote for your heroku project.
+
+echo:
+echo -- Pip Commands --
+echo install                         Install packages.
+echo download                        Download packages.
+echo uninstall                       Uninstall packages.
+echo freeze                          Output installed packages in requirements format.
+echo list                            List installed packages.
+echo show                            Show information about installed packages.             
