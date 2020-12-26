@@ -1,81 +1,56 @@
-@echo off
+@echo off 
+
+echo: 
+echo -- Command Line Commands --
+echo cd [dir]                   Changes the current directory.
+echo cd ..                      Sets  the directory to parent.
+echo cls                        Clears the command line.
+echo cmd                        Starts a new command line window.
+echo dir                        Returns file of directory.
+echo echo [msg]                 Returns a message.
+echo exit                       Closes the command line.
+echo rundmin                    Starts an administartor command line.
 
 echo:
-echo ---- // COMMAND PROMPT \\ ----
-echo:
-echo CD ..                          Sets directory to parent.
-echo CD \                           Sets directory to CL.
-echo CD [DIR]                       Sets directory.
-echo CLS                            Clear CL.
-echo CMD                            Starts a new instance of CL.
-echo DIR                            Return files of directory.
-echo ECHO [MSG]                     Returns message.
-echo EXIT                           Closes CL.
-echo NEW                            Opens CL.
-echo RUNADMIN                       Starts a new instance of CL as an admin.
+echo -- Google Commands --
+echo start chrome [url]         Starts a new Chrome window (url not required).
+echo start chrome --incognito   Opens an incognito Chrome window.
+echo exitchrome                 Exits the chrome window.
+echo restartchrome              Restarts chrome.
 
 echo:
-echo ---- // PC \\ ----
-echo:
-echo ENDTASK                        Terminates a task.
-echo IPCONFIG                       Returns IP address.
-echo LOGOFF                         Logs the current user out of the machine.
-echo PING [URL]                     Allows the user to test the availability of a network connection to a specified host.
-echo SHUTDOWN                       Allows proper local or remote shutdown of machine.
-echo SYSTEMINFO                     Displays system info.
-echo TASKLIST                       Displays all currently running tasks including services.
+echo -- Miscellaneous Commands --
+echo startdis                   Starts a new Discord window.
+echo morning                    Starts a morning process.
+echo startup                    Begins a startup process.
+echo endtask                    Ends a specfifc task.
+echo open                       Opens a specific file.
+echo email                      Opens my personal email.
+
 
 echo:
-echo ---- // MISC \\ ----
-echo:
-echo HIS                            View command history.
-echo SORT                           Insensitive case filtering.
-echo SYNC                           Sync local repo to system32 (Security: Admin).
-echo SYNCREPO                       Syncs my VSC Batch folder to my git Batch folder, use this before sync.
-echo TREE                           Graphically displays the directory structure of apath.
-echo TYPE                           Displays the contents of a text file.
-echo FLS                            Opens Discord RPC for Flashing Lights.
-echo GITHUB                         Opens my personal GitHub account.
+echo -- Git Commands --
+echo init                       Initiallizes a Git repository.
+echo clone [url]                Clones a repository
+echo add [filename]             Adds a file to the context.
+echo add .                      Adds all files in the directory to the context.
+echo logs                       Returns commit logs.
+echo status                     Returns the working tree status.
+echo branch                     List, create, or delete branches.
+echo commit                     Confirms changes to the repository.
+echo fetch                      Download objects and refs from another repository
+echo pull                       Fetch from and integrate with another repository or a local branch
+echo push                       Update remote refs along with associated objects
+echo merge                      Join two or more development histories together
+echo switch                     Switch branches
+echo remote add                 Adds a remote.
+echo checkout                   Allows you to switch to an old commit.
 
 echo:
-echo ---- // FILES \\ ----
-echo:
-echo MD [NAME]                      Creates folder.
-echo OPEN                           Opens a folder.
-echo COMP                           Show differences between any files.
-echo DEL [NAME]                     Deletes file.
-echo FC                             Show differences between any files.
-echo XCOPY [FILE] [DESTINATION]     Copy all descendants of path.
-echo COPY [FILE] [DESTINATION]      Copy file.
-echo MOVE [FILE] [DESTINATION]      Move file.
-echo REN [FILE] [NAME]              Renames file.
-echo START [FILE]                   Opens/runs folder/file.
-
-echo:
-echo ---- // GOOGLE \\ ----
-echo:
-echo RESTARTCHROME                  Restarts google chrome.
-echo EXITCHROME                     Closes chromne.
-echo START CHROME [URL]             Search chrome.
-echo START CHROME --INCOGNITO       Starts chrome in incognito mode.
-
-echo:
-echo ---- // VISUAL STUDIO CODE \\ ----
-echo:
-echo CODE -D [FILE] [FILE]          Compares two files.
-echo CODE -H                        Prints commands.
-echo CODE -NAME                     Opens new session.
-echo CODE .                         Open VSC.
-echo CODE [FILE]                    Opens new file.
-echo RBXLNEW                        Creates a new Roblox studio place, opens Rojo and Visual Studio Code.
-echo RBXLOPEN [NAME]                Opens a Roblox studio place, Rojo, and Visual Studio Code.      
-
-echo:
-echo ---- // AUTOMATIONS \\ ----
-echo:
-echo EMAIL                          Opens person email.
-echo MORNING                        Starts morning process, opens google classroom, youtube, connects to the wifi, and opens my email.
-echo OPENAPPS                       Opens applications folder.
-echo OPENSTARTUP                    Opens startup folder.
-echo STARTDIS                       Opens Discord.
-echo WIFI                           Connects to the wifi.
+echo -- Heroku Commands --
+echo helps                      Returns a more in depth command list.
+echo login                      Logs you into the Heroku CLI.
+echo logs                       Retrurns the logs.
+echo apps                       Returns all Heroku apps on your account.
+echo create                     Creates an app or buildpack.
+echo releases                   Display the releases for an app
