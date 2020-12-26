@@ -8,8 +8,11 @@ echo cls                        Clears the command line.
 echo cmd                        Starts a new command line window.
 echo dir                        Returns file of directory.
 echo echo [msg]                 Returns a message.
+echo echo [msg] > [filename]    Creates a text with the message added.      
 echo exit                       Closes the command line.
 echo rundmin                    Starts an administartor command line.
+echo copy                       Copies one or more files to another location.
+echo xcopy                      Copies files and directory trees.   
 
 echo:
 echo -- Google Commands --
@@ -26,6 +29,7 @@ echo startup                    Begins a startup process.
 echo endtask                    Ends a specfifc task.
 echo open                       Opens a specific file.
 echo email                      Opens my personal email.
+echo sync                       Syncs Batch Scripts repo to System32.
 
 
 echo:
