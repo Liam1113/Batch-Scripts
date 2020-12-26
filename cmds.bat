@@ -31,18 +31,18 @@ echo email                      Opens my personal email.
 echo:
 echo -- Git Commands --
 echo init                       Initiallizes a Git repository.
-echo clone [url]                Clones a repository
+echo clone [url]                Clones a repository.
 echo add [filename]             Adds a file to the context.
 echo add .                      Adds all files in the directory to the context.
 echo logs                       Returns commit logs.
 echo status                     Returns the working tree status.
 echo branch                     List, create, or delete branches.
 echo commit                     Confirms changes to the repository.
-echo fetch                      Download objects and refs from another repository
-echo pull                       Fetch from and integrate with another repository or a local branch
-echo push                       Update remote refs along with associated objects
-echo merge                      Join two or more development histories together
-echo switch                     Switch branches
+echo fetch                      Download objects and refs from another repository.
+echo pull                       Fetch from and integrate with another repository or a local branch.
+echo push                       Update remote refs along with associated objects.
+echo merge                      Join two or more development histories together.
+echo switch                     Switch branches.
 echo remote add                 Adds a remote.
 echo checkout                   Allows you to switch to an old commit.
 
@@ -53,4 +53,4 @@ echo login                      Logs you into the Heroku CLI.
 echo logs                       Retrurns the logs.
 echo apps                       Returns all Heroku apps on your account.
 echo create                     Creates an app or buildpack.
-echo releases                   Display the releases for an app
+echo releases                   Display the releases for an app.
