@@ -7,6 +7,8 @@ echo cd ..                      Sets  the directory to parent.
 echo cls                        Clears the command line.
 echo cmd                        Starts a new command line window.
 echo dir                        Returns file of directory.
+echo ls                         List the contents of the current directory.
+echo touch [file.extension]     Creates and saves an empty file.
 echo echo [msg]                 Returns a message.
 echo echo [msg] > [filename]    Creates a text with the message added.      
 echo exit                       Closes the command line.
